@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'p+wara') { 
+if (message.content === 'w+come') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە✅ https://discord.gg/ShsNPBbdUT`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
+  client.channels.get("809531678485643284").send(
 `> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ڕیکلامەکە بنێرە بۆمن دایدەنێم☑️`) 
-});
+client.user.setGame(`✅Partner BooT☑️`) 
+})
 
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("ODE1OTkwNjYzODMzMzIxNDg0.YD0chg.ZW0pM32eYHPbqEEpwGxA6HJdK-w");//تۆکین لێرە دانێ
